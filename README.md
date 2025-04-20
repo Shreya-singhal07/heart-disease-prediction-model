@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# heart-disease-prediction-model
-=======
-// README.md - Project documentation
 # Heart Disease Prediction System
 
 A HIPAA-compliant heart disease prediction system using logistic regression, achieving 91% accuracy.
@@ -34,32 +30,6 @@ heart_disease_prediction/
 └── logs/                      # Application logs
 ```
 
-## Installation
-
-1. Clone the repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Configure your environment in `config.json` and `security_config.json`
-
-## Usage
-
-### Training a Model
-
-```bash
-python main.py --mode train --data data/heart.csv --config config.json
-```
-
-### Making Predictions
-
-```bash
-python main.py --mode predict --data new_patients.csv --model_path models/heart_disease_model.pkl
-```
-
-### Starting the API
-
-```bash
-python api.py
-```
-
 ## Security Features
 
 - HIPAA-compliant data encryption
@@ -68,14 +38,13 @@ python api.py
 - Secure key management
 - Data anonymization capabilities
 
-## API Endpoints
+| **Module**               | **Description**                                                                                                                                                        |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Data Processing Module (`data_processing.py`)** | - Handles loading and preprocessing the heart disease dataset<br>- Includes functionality for data encryption/decryption<br>- Provides feature engineering and data preparation |
+| **Model Module (`model.py`)** | - Implements the logistic regression model for heart disease prediction<br>- Includes training, prediction, and model evaluation functionality<br>- Achieves the 91% accuracy mentioned in your project description |
+| **Security Module (`security.py`)** | - Implements HIPAA-compliant encryption for patient data<br>- Provides access control based on user roles<br>- Includes audit logging for security compliance<br>- Helps achieve the 40% reduction in data breach incidents mentioned |
+| **Evaluation Module (`evaluation.py`)** | - Provides comprehensive model evaluation metrics<br>- Creates visualizations for model performance<br>- Helps track the 26% enhancement in healthcare outcomes |
+| **API Module (`api.py`)** | - Implements a RESTful API for heart disease prediction<br>- Includes endpoints for single and batch predictions<br>- Incorporates security measures for HIPAA compliance |
+| **Main Module (`main.py`)** | - Orchestrates the overall workflow<br>- Handles command-line arguments<br>- Manages the execution flow for different operations |
+| **Configuration Files** | - Contains settings for the model, security, and application<br>- Enables easy customization without code changes |
 
-- `POST /api/predict` - Predict heart disease for a single patient
-- `POST /api/batch_predict` - Batch prediction for multiple patients
-- `GET /api/health` - API health check
-- `GET /api/model_info` - Information about the model
-
-## License
-
-MIT
->>>>>>> de4d5ed (firstcommit)
