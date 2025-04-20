@@ -1,0 +1,33 @@
+{
+    "key_directory": "keys",
+    "log_directory": "logs/security",
+    "encryption_iterations": 100000,
+    "user_access_levels": {
+        "admin": ["read", "write", "delete", "encrypt", "decrypt"],
+        "doctor": ["read", "write"],
+        "researcher": ["read"],
+        "analyst": ["read"]
+    },
+    "token_expiration_minutes": 60,
+    "data_retention_days": 90,
+    "audit_trail": true,
+    "hipaa_compliance": {
+        "data_encryption": true,
+        "access_control": true,
+        "audit_logging": true,
+        "data_integrity": true,
+        "transmission_security": true
+    }, 
+    
+    "api_keys": {
+        "hd_pred_9a8b7c6d5e4f3g2h1i": {
+        "secret": "64cf8deb3a72140e95b1c893fd76502a9a8bc7d6",
+        "role": "admin",
+        "user_id": "admin",
+        "rate_limit": 100
+        }
+    }
+
+
+}
+

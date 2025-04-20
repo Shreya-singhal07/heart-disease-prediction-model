@@ -1,0 +1,31 @@
+
+{
+    "model_params": {
+        "C": 1.0,
+        "penalty": "l2",
+        "solver": "liblinear",
+        "max_iter": 1000,
+        "random_state": 42
+    },
+    "data_params": {
+        "test_size": 0.2,
+        "random_state": 42,
+        "features": [
+            "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg",
+            "thalach", "exang", "oldpeak", "slope", "ca", "thal"
+        ], 
+        "target": "target"
+    },
+    "paths": {
+        "model_dir": "models",
+        "data_dir": "data",
+        "output_dir": "output",
+        "log_dir": "logs"
+    },
+    "api": {
+        "host": "0.0.0.0",
+        "port": 5000,
+        "debug": false,
+        "secret_key": "64cf8deb3a72140e95b1c893fd76502a9a8bc7d6"
+    }
+}

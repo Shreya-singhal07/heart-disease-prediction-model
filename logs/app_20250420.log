@@ -1,0 +1,330 @@
+2025-04-20 20:45:08,685 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 20:45:08,686 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 20:45:08,686 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 21:02:21,530 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:02:21,531 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 21:02:21,531 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 21:11:48,401 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:11:48,401 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 21:11:48,401 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 21:14:32,083 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:14:32,084 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 21:14:32,084 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 21:19:23,371 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:19:23,371 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 21:19:23,371 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 21:21:23,207 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:21:23,207 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 21:21:23,207 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 21:28:22,083 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:28:22,083 - health_security - INFO - Access granted - User: None, Role: researcher, Operation: write
+2025-04-20 21:28:22,083 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 21:28:22,084 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: [Errno 2] No such file or directory: 'data/heart.csv'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 104, in main
+    data = data_processor.load_data(args.data, args.encrypted, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 62, in load_data
+    return pd.read_csv(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/heart.csv'
+2025-04-20 21:29:20,911 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:29:20,913 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 21:29:20,913 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 21:36:04,959 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:36:04,961 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 21:36:04,961 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 21:36:04,962 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: [Errno 2] No such file or directory: 'data/heart.csv'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 104, in main
+    data = data_processor.load_data(args.data, args.encrypted, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 62, in load_data
+    return pd.read_csv(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/heart.csv'
+2025-04-20 21:37:42,305 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:37:42,306 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 21:37:42,306 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 21:37:42,306 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: [Errno 2] No such file or directory: 'data/heart.csv'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 104, in main
+    data = data_processor.load_data(args.data, args.encrypted, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 62, in load_data
+    return pd.read_csv(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/heart.csv'
+2025-04-20 21:37:58,970 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:37:58,971 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 21:37:58,971 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 21:38:10,558 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:38:10,559 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 21:38:10,559 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 21:38:10,559 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: [Errno 2] No such file or directory: 'data/heart.csv'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 104, in main
+    data = data_processor.load_data(args.data, args.encrypted, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 62, in load_data
+    return pd.read_csv(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/heart.csv'
+2025-04-20 21:38:29,779 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:38:29,780 - health_security - INFO - Access granted - User: None, Role: admin, Operation: write
+2025-04-20 21:38:29,780 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 21:38:29,781 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: [Errno 2] No such file or directory: 'data/heart.csv'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 104, in main
+    data = data_processor.load_data(args.data, args.encrypted, key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 62, in load_data
+    return pd.read_csv(filepath)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/heart.csv'
+2025-04-20 21:38:36,820 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:38:36,820 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 21:38:36,820 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 21:44:40,692 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:44:40,694 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 21:44:40,694 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 21:44:54,374 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:44:54,377 - health_security - INFO - Access granted - User: None, Role: admin, Operation: write
+2025-04-20 21:44:54,377 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 21:44:54,383 - heart_disease_prediction - INFO - Loaded data with shape (1025, 14)
+2025-04-20 21:44:54,388 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: 'features'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 107, in main
+    X, y = data_processor.preprocess_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 85, in preprocess_data
+    X = df[self.config['features']]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'features'
+2025-04-20 21:45:52,282 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:45:52,284 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 21:45:52,285 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 21:45:52,288 - heart_disease_prediction - INFO - Loaded data with shape (1025, 14)
+2025-04-20 21:45:52,291 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: 'features'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 107, in main
+    X, y = data_processor.preprocess_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 85, in preprocess_data
+    X = df[self.config['features']]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'features'
+2025-04-20 21:51:33,054 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:51:33,056 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 21:51:33,056 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 21:51:33,060 - heart_disease_prediction - INFO - Loaded data with shape (1025, 14)
+2025-04-20 21:51:33,063 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: 'features'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 107, in main
+    X, y = data_processor.preprocess_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 85, in preprocess_data
+    X = df[self.config['features']]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'features'
+2025-04-20 21:51:50,975 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:51:50,975 - health_security - INFO - Access granted - User: None, Role: admin, Operation: write
+2025-04-20 21:51:50,975 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 21:51:50,979 - heart_disease_prediction - INFO - Loaded data with shape (1025, 14)
+2025-04-20 21:51:50,983 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: 'features'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 107, in main
+    X, y = data_processor.preprocess_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 85, in preprocess_data
+    X = df[self.config['features']]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'features'
+2025-04-20 21:52:00,099 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 21:52:00,100 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 21:52:00,100 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 23:14:31,668 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 23:14:31,671 - health_security - WARNING - Access denied - User: None, Role: researcher, Operation: write
+2025-04-20 23:14:31,671 - heart_disease_prediction - ERROR - Access denied: User None with role researcher cannot perform write operation
+2025-04-20 23:17:49,558 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 23:17:49,559 - health_security - WARNING - Access denied - User: admin, Role: researcher, Operation: write
+2025-04-20 23:17:49,559 - heart_disease_prediction - ERROR - Access denied: User admin with role researcher cannot perform write operation
+2025-04-20 23:18:42,102 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 23:18:42,103 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 23:18:42,103 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 23:18:42,107 - heart_disease_prediction - INFO - Loaded data with shape (1025, 14)
+2025-04-20 23:18:42,111 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: 'features'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 107, in main
+    X, y = data_processor.preprocess_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 85, in preprocess_data
+    X = df[self.config['features']]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'features'
+2025-04-20 23:21:24,735 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 23:21:24,735 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 23:21:24,736 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 23:21:24,740 - heart_disease_prediction - INFO - Loaded data with shape (1025, 14)
+2025-04-20 23:21:24,744 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: 'features'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 107, in main
+    X, y = data_processor.preprocess_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 85, in preprocess_data
+    X = df[self.config['features']]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'features'
+2025-04-20 23:25:01,571 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 23:25:01,573 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 23:25:01,573 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 93, in main
+    data_processor = HeartDataProcessor(args.config)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 18, in __init__
+    self.config = self._load_config(config_path)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 27, in _load_config
+    return json.load(f)
+           ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-04-20 23:27:22,526 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 23:27:22,528 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 23:27:22,529 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 23:27:22,534 - heart_disease_prediction - INFO - Loaded data with shape (1025, 14)
+2025-04-20 23:27:22,539 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: 'features'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 107, in main
+    X, y = data_processor.preprocess_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 86, in preprocess_data
+    X = df[self.config['features']]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'features'
+2025-04-20 23:27:50,231 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 23:27:50,231 - health_security - WARNING - Access denied - User: admin, Role: researcher, Operation: write
+2025-04-20 23:27:50,232 - heart_disease_prediction - ERROR - Access denied: User admin with role researcher cannot perform write operation
+2025-04-20 23:28:15,100 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 23:28:15,101 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 23:28:15,101 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 23:28:15,104 - heart_disease_prediction - INFO - Loaded data with shape (1025, 14)
+2025-04-20 23:28:15,108 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: 'features'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 107, in main
+    X, y = data_processor.preprocess_data(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 86, in preprocess_data
+    X = df[self.config['features']]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'features'
+2025-04-20 23:34:42,049 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 23:34:42,051 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 23:34:42,051 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 23:34:42,056 - heart_disease_prediction - INFO - Loaded data with shape (1025, 14)
+2025-04-20 23:34:42,063 - heart_disease_prediction - ERROR - Error in Heart Disease Prediction System: 'test_size'
+Traceback (most recent call last):
+  File "/Users/shreyasinghal/Desktop/NNproject/main.py", line 108, in main
+    X_train, X_test, y_train, y_test = data_processor.prepare_data(X, y)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasinghal/Desktop/NNproject/data_processing.py", line 120, in prepare_data
+    test_size=self.config['test_size'],
+             ~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'test_size'
+2025-04-20 23:40:32,503 - heart_disease_prediction - INFO - Starting Heart Disease Prediction System in train mode
+2025-04-20 23:40:32,506 - health_security - INFO - Access granted - User: admin, Role: admin, Operation: write
+2025-04-20 23:40:32,507 - heart_disease_prediction - INFO - Loading data from data/heart.csv
+2025-04-20 23:40:32,517 - heart_disease_prediction - INFO - Loaded data with shape (1025, 14)
+2025-04-20 23:40:32,531 - heart_disease_prediction - INFO - Training heart disease prediction model
+2025-04-20 23:40:32,534 - heart_disease_prediction - INFO - Evaluating model performance
+2025-04-20 23:40:32,542 - heart_disease_prediction - INFO - Saving model to models/heart_disease_model.pkl
+2025-04-20 23:40:32,542 - heart_disease_prediction - INFO - Saving scaler to models/scaler.pkl
+2025-04-20 23:40:33,214 - heart_disease_prediction - INFO - Model accuracy: 0.795
+2025-04-20 23:40:33,214 - heart_disease_prediction - INFO - Model AUC: 0.879
+2025-04-20 23:40:33,214 - heart_disease_prediction - INFO - Heart Disease Prediction System train completed successfully
