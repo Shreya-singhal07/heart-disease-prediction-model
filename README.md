@@ -54,6 +54,7 @@ heart_disease_prediction/
 ![image](https://github.com/user-attachments/assets/e339f0e8-387f-4afa-9e84-0e955ff94574)
 
 **feature importance**
+
 ![1](https://github.com/user-attachments/assets/a12fc50f-94d6-41d5-be94-c061aebe565e)
 
 **roc_curve**
